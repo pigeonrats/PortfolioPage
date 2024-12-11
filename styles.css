@@ -1,0 +1,217 @@
+@media only screen and (max-width: 1120px)
+{ div.nav-menu{display:flex;flex-direction:column;margin-top:40px;} 
+  
+  div.nav-menu a{font-size:30px;} 
+
+  div.projects {height:1200px !important;}
+  
+  div.projecthead {margin-bottom:25px;}
+  
+  div.maincontainer{height:530px;display:flex;align-items:center;}
+  
+  div.bubbleimage {top:-2px;margin:30px;animation-name:none;
+  animation-duration: 0s;}
+  
+    div.bugintro{margin-top:-150px;margin-left:0px;}
+  
+ div.logo img{margin-left:-100px;margin-top:0px;width:200px;height:160px;}
+  
+  div.shelldivider img{width:150px;height:100px;}
+  
+.h1 {font-size:1.5rem !important;} 
+}
+
+
+
+@media only screen and (max-width: 1700px)
+{ div.projects {height:800px;}}
+
+
+
+* {margin:0;}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {margin: auto;
+  font-family: Outfit, sans serif;
+  font-color:white;
+  width:100%;display:block;}
+
+
+@keyframes bong { 
+            0%, 20%, 50%, 80%, 100% {transform:translateY(0);} 
+            40% {transform: translateY(-20px);} 
+            60% {transform: translateY(-10px);} 
+         }
+
+
+@keyframes floating { 
+              0%, 20%, 50%, 80%, 100%{transform:translateY(0);} 
+50% {transform: translateY(80px);} 
+         }
+
+
+
+.backgroundgradient {
+ background: linear-gradient(#FBE9EA 0%, #ffffff 25%, #ffffff 75%, #FBE9EA 100%);
+}
+ 
+.bghalftonebottom {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/92209721_f3YIPAV22CZmEb5.png?1733316024); background-position: center bottom;background-repeat: repeat-x;}
+
+.bghalftonetop {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/92209803_K4c5qUw6vSgJGt5.png); background-position: center top;background-repeat: repeat-x;}
+
+.logo {margin-left:100px;margin-top:100px;width:200px;height:250px;}
+
+.navbar {width:100%;height:150px;background-color:white;display:flex;justify-content:space-between; flex-direction:row; align-items:center;
+  border-width: 0; 
+  border-bottom: 15px solid;
+  border-color:#E9B6B9;}
+
+.nav-menu {
+  background: transparent;
+  padding-bottom:20px;
+  margin-top:100px;
+  color:#F2C667;
+  font-family:mclaren;display:flex;justify-content:flex-end; flex-direction:row; align-items:center;
+        }
+
+.nav-menu a {
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color:#F2C667;
+  font-family:mclaren;
+  font-size:40px;margin:0 20px;
+        }
+
+  .nav-menu a:hover {
+    color:#6FC59E;
+    animation-name: bong;
+    animation-duration:1s;
+}
+
+.anchor{
+   display:block;
+   height:150px;
+   margin-top:-150px;
+   visibility:hidden;
+}
+
+
+.bubblebottombox::-webkit-scrollbar {
+  display: none;
+}
+
+.bubblebottombox {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+
+
+header {width:100%;position:sticky;height:150px;background-color:white;top:0;z-index:999;}
+
+
+
+footer {width:100%;height:200px; }
+
+.footercontainer{width:100%;height:200px;display:flex;justify-content:space-evenly; flex-direction:row;}
+
+.footerinfo{width:400px;height:200px;border-radius:700px 700px 0 0;background-color:#52E7A3;overflow:auto;}
+
+.footertext{overflow:auto;width:200px;height:100px;align-items:center;margin-left:100px;margin-top:70px;}
+
+.footertext p{font-family:outfit;font-size:.9rem;}
+
+.footerbottom{width:200px;height:100px;border-radius:700px 700px 0 0;background-color:#F2C667;overflow:auto;z-index:999;position:relative;top:100px;
+}
+
+
+
+.shelldivider {width:100%;height:200px;display:flex;align-items:center;justify-content:center;}
+
+
+
+main {width:100%;display:flex;flex-direction:column;}
+
+.maincontainer {width:100%;height:300px;background-color:#52E7A3; display:flex; flex-direction:row;justify-content:center;flex-wrap:wrap;margin-top:100px;}
+
+.bugimage {width:300px;height:300px;margin-top:30px;}
+.bugbody {width:300px;height:250px;}
+.bugintro {margin-top:30px;text-align:center;}
+.bugintro p{font-family:outfit;font-size:2rem;margin-top:10px;margin-bottom:-10px;}
+
+
+.fa-brands, .fa-solid {font-size:40px;color:white;}
+.fa-regular {color:white;}
+
+
+.projects {width:100%;height:600px; background-color:#E9B6B9;}
+
+.projecthead {width:100%;display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;margin-top:10px;}
+
+.projectcontainermain{width:100%;height:500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;}
+
+
+.projectthumb {width:450px;height:370px;border-radius:30px;margin-left:100px;}
+
+
+.projectthumbs {width:350px;height:260px;border-radius:20px; border: solid white 5px;}
+
+.projectthumb a {
+  display: block;
+  text-decoration: none;}
+
+  .projectthumb a:hover {
+    animation-name: bong;
+    animation-duration:1s;
+}
+
+
+.about {width:100%;display:flex;flex-direction:row;justify-content:center;flex-wrap:wrap;padding-top:20px;}
+
+
+.bubblebug {background-color:#FFD57B;overflow:auto;width:450px;height:450px;border-radius:300px;align-items:center;display:flex;flex-direction:column;}
+
+.bubblebugbox {width:300px;height:350px;overflow:auto;margin-top:70px;align-items:center;display:flex;flex-direction:column;}
+
+.bubbleimage {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/72475220_Gs0VNqRLxkwObPr.png);background-size:cover;overflow:auto;width:300px;height:300px;border-radius:300px;position:relative;top:50px;margin:30px;animation-name:floating; animation: floating infinite;
+  animation-duration: 10s;}
+
+.bubblebottom {background-color:#E9B6B9;overflow:auto;width:650px;height:650px;border-radius:500px;align-self:flex-end;align-items:center;display:flex;flex-direction:column;}
+
+.bubbleheader{width:480px;height:350px;overflow:auto;margin-top:70px;align-items:center;display:flex;flex-direction:column;}
+
+.bubblebottombox
+{width:430px;height:583px;overflow:auto;margin-top:-229px;margin-left:15px;}
+
+h1 {font-family:mclaren;color:white;font-size:5rem;}
+h2 {font-family:mclaren;color:white;font-size:3rem;}
+h3 {font-family:outfit;color:#672121;font-size:2rem;text-align:center;margin-left:-90px;}
+h4, h5 {font-family:mclaren;color:#672121;font-size:2.7rem;}
+h6 {font-size:1.2rem;color:white;font-family:mclaren;text-align:center;}
+
+
+hr {width:500px;height:15px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+
+
+.bubblebugbox hr{width:250px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+
+.bubblebottombox hr{width:400px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+
+.bubbleheader hr{width:450px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+
+.bubblebugbox p, .bubblebottombox p {font-family:outfit;font-size:.9rem;}
+

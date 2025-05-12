@@ -56,7 +56,7 @@ html {
 
 
 .backgroundgradient {
- background: linear-gradient(#FBE9EA 0%, #ffffff 25%, #ffffff 75%, #FBE9EA 100%);
+ background: linear-gradient(#48A6F5 0%, #1989E9 100%);
 }
  
 .bghalftonebottom {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/92209721_f3YIPAV22CZmEb5.png?1733316024); background-position: center bottom;background-repeat: repeat-x;}
@@ -65,16 +65,16 @@ html {
 
 .logo {margin-left:100px;margin-top:100px;width:200px;height:250px;}
 
-.navbar {width:100%;height:150px;background-color:white;display:flex;justify-content:space-between; flex-direction:row; align-items:center;
+.navbar {width:100%;height:150px;background-color:#FFFAF5;display:flex;justify-content:space-between; flex-direction:row; align-items:center;
   border-width: 0; 
   border-bottom: 15px solid;
-  border-color:#E9B6B9;}
+  border-color:#093547;}
 
 .nav-menu {
   background: transparent;
   padding-bottom:20px;
   margin-top:100px;
-  color:#F2C667;
+  color:#FFFAF5;
   font-family:mclaren;display:flex;justify-content:flex-end; flex-direction:row; align-items:center;
         }
 
@@ -82,13 +82,13 @@ html {
   display: block;
   text-decoration: none;
   transition: all 0.3s ease;
-  color:#F2C667;
+  color:#021720;
   font-family:mclaren;
   font-size:40px;margin:0 20px;
         }
 
   .nav-menu a:hover {
-    color:#6FC59E;
+    color:#F25104;
     animation-name: bong;
     animation-duration:1s;
 }
@@ -120,13 +120,13 @@ footer {width:100%;height:200px; }
 
 .footercontainer{width:100%;height:200px;display:flex;justify-content:space-evenly; flex-direction:row;}
 
-.footerinfo{width:400px;height:200px;border-radius:700px 700px 0 0;background-color:#52E7A3;overflow:auto;}
+.footerinfo{width:400px;height:200px;border-radius:700px 700px 0 0;background-color:#D3571B;overflow:auto;}
 
 .footertext{overflow:auto;width:200px;height:100px;align-items:center;margin-left:100px;margin-top:70px;}
 
 .footertext p{font-family:outfit;font-size:.9rem;}
 
-.footerbottom{width:200px;height:100px;border-radius:700px 700px 0 0;background-color:#F2C667;overflow:auto;z-index:999;position:relative;top:100px;
+.footerbottom{width:200px;height:100px;border-radius:700px 700px 0 0;background-color:#FF9461;overflow:auto;z-index:999;position:relative;top:100px;
 }
 
 
@@ -137,38 +137,41 @@ footer {width:100%;height:200px; }
 
 main {width:100%;display:flex;flex-direction:column;}
 
-.maincontainer {width:100%;height:300px;background-color:#52E7A3; display:flex; flex-direction:row;justify-content:center;flex-wrap:wrap;margin-top:100px;}
+.maincontainer {width:100%;height:300px;background-color:none; display:flex; flex-direction:row;justify-content:center;flex-wrap:wrap;margin-top:35px;}
 
 .bugimage {width:300px;height:300px;margin-top:30px;}
 .bugbody {width:300px;height:250px;}
 .bugintro {margin-top:30px;text-align:center;}
-.bugintro p{font-family:outfit;font-size:2rem;margin-top:10px;margin-bottom:-10px;}
+.bugintro p{font-family:outfit;color:white;font-size:2rem;margin-top:10px;margin-bottom:-10px;background-color:#F25104; border-radius: 20px;}
 
 
 .fa-brands, .fa-solid {font-size:40px;color:white;}
 .fa-regular {color:white;}
 
+.fa-brands a {color:#EEB119;}
+.fa-brands a:hover {color:#EEB119;}
 
-.projects {width:100%;height:600px; background-color:#E9B6B9;}
+.projects {width:100%px;height:1000px; background-color:none;}
 
-.projecthead {width:100%;display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.projecthead {width:100%; display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  justify-content: center;
+  align-items: center; margin-top:10px;}
+
+.projectcontainermain{width:100%;height:1000px;
+ display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
   justify-content: center;
-  align-items: center;margin-top:10px;}
-
-.projectcontainermain{width:100%;height:500px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;}
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+  padding: 10px 10px;}
 
 
 .projectthumb {width:450px;height:370px;border-radius:30px;margin-left:100px;}
 
-
-.projectthumbs {width:350px;height:260px;border-radius:20px; border: solid white 5px;}
 
 .projectthumb a {
   display: block;
@@ -183,35 +186,36 @@ main {width:100%;display:flex;flex-direction:column;}
 .about {width:100%;display:flex;flex-direction:row;justify-content:center;flex-wrap:wrap;padding-top:20px;}
 
 
-.bubblebug {background-color:#FFD57B;overflow:auto;width:450px;height:450px;border-radius:300px;align-items:center;display:flex;flex-direction:column;}
+.bubblebug {background-color:#FF9461;overflow:auto;width:400px;height:400px;border-radius:300px;align-items:center;display:flex;flex-direction:column;}
 
 .bubblebugbox {width:300px;height:350px;overflow:auto;margin-top:70px;align-items:center;display:flex;flex-direction:column;}
 
 .bubbleimage {background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/72475220_Gs0VNqRLxkwObPr.png);background-size:cover;overflow:auto;width:300px;height:300px;border-radius:300px;position:relative;top:50px;margin:30px;animation-name:floating; animation: floating infinite;
   animation-duration: 10s;}
 
-.bubblebottom {background-color:#E9B6B9;overflow:auto;width:650px;height:650px;border-radius:500px;align-self:flex-end;align-items:center;display:flex;flex-direction:column;}
+.bubblebottom {background-color:#FFD773;overflow:auto;width:450px;height:450px;border-radius:500px;align-self:flex-end;align-items:center;display:flex;flex-direction:column;}
 
-.bubbleheader{width:480px;height:350px;overflow:auto;margin-top:70px;align-items:center;display:flex;flex-direction:column;}
+.bubbleheader{width:280px;height:350px;overflow:auto;margin-top:70px;align-items:center;display:flex;flex-direction:column;}
 
 .bubblebottombox
-{width:430px;height:583px;overflow:auto;margin-top:-229px;margin-left:15px;}
+{width:400px;height:400px;overflow:auto;margin-top:-180px;margin-left:15px;}
 
 h1 {font-family:mclaren;color:white;font-size:5rem;}
 h2 {font-family:mclaren;color:white;font-size:3rem;}
-h3 {font-family:outfit;color:#672121;font-size:2rem;text-align:center;margin-left:-90px;}
-h4, h5 {font-family:mclaren;color:#672121;font-size:2.7rem;}
+h3 {font-family:outfit;color:white;font-size:2rem;text-align:center;margin-left:-90px;}
+h4, h5 {font-family:mclaren;color:#093547;font-size:2.7rem;}
 h6 {font-size:1.2rem;color:white;font-family:mclaren;text-align:center;}
+h7 {font-size:1.6rem;color:white;font-family:mclaren;text-align:center;background-color:#093547;border-radius:20px;margin-top:30px;padding-left:20px;padding-right:20px;}
 
 
-hr {width:500px;height:15px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+hr {width:500px;height:15px; background-color:#FFB600; border-radius:100px;border-color:transparent;margin-bottom:10px;}
 
 
 .bubblebugbox hr{width:250px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
 
-.bubblebottombox hr{width:400px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+.bubblebottombox hr{width:350px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
 
-.bubbleheader hr{width:450px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
+.bubbleheader hr{width:150px;height:10px; background-color:white; border-radius:100px;border-color:transparent;margin-bottom:10px;}
 
 .bubblebugbox p, .bubblebottombox p {font-family:outfit;font-size:.9rem;}
 
